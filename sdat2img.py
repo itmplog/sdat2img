@@ -18,7 +18,6 @@ except IndexError:
    try:
        input = raw_input
    except NameError: pass
-   input ("Press ENTER to exit...\n")
    sys.exit()
 
 BLOCK_SIZE = 4096
